@@ -1,0 +1,48 @@
+{
+  "name": "rn-update-apk",
+  "version": "5.0.1",
+  "description": "Check for new APK versions and update app from React Native",
+  "main": "index.js",
+  "types": "types.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Topdeveloper777/update-apk-new.git"
+  },
+  "scripts": {
+    "dev-sync": "cp -r index.js android ios example/node_modules/rn-update-apk/",
+    "shipit": "np",
+    "test": "echo no tests yet"
+  },
+  "keywords": [
+    "react-native",
+    "react-component",
+    "ios",
+    "android",
+    "update",
+    "app",
+    "apk"
+  ],
+  "author": "Topdeveloper777 (https://github.com/Topdeveloper777)",
+  "contributors": [
+    "Andréas 'ScreamZ' HANSS (https://github.com/ScreamZ)",
+    "parryworld (https://github.com/parryworld)"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "react-native-fs": "^2.16.6"
+  },
+  "devDependencies": {
+    "@react-native-community/cli": "^4.13.0",
+    "np": "^6.5.0",
+    "prettier": "^2.1.2"
+  },
+  "nativePackage": true,
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "homepage": "https://github.com/Topdeveloper777/update-apk-new",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/Topdeveloper777/update-apk-new/issues"
+  }
+}
